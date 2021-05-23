@@ -1,5 +1,4 @@
 # about CS foundation
-##### 내 언어로 정리하면서 공부하는 CS Foundation
 
 1. CS Foundation
 	* <a href = '/dataStructure'>Data Structure</a>
