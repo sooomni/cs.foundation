@@ -13,8 +13,8 @@
  		* 개방-폐쇄 원칙 : 소프트웨어 요소는 확장에는 열려있으나 수정에는 닫혀있어야 한다.
  	* 멀티쓰레드환경에서 동기화 처리를 하지 않으면 인스턴스가 두개가 생성된다든지 하는 경우가 발생할 수 있다.
  * 사용 방법 : 
- 	'''
- 		static class DBConnection{
+    ```
+    static class DBConnection{
  			private static DBConnection instance = new DBConnection();
 
  			private DBConnection(){}
@@ -23,4 +23,4 @@
  				return instance();
  			}
  		}
-	'''
+    ```
